@@ -6,5 +6,5 @@ const pgconn = new Pool({
     connectionString: DB_CONFIG,
     ssl: false,
 });
-  
+
 module.exports = { pgconn }
