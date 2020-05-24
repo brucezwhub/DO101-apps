@@ -13,6 +13,9 @@ app.get('/feature1', function (req, res) {
   res.send('Hello feature1!\n');
 });
 
+app.get('/1', function (req, res) {
+  res.send('Hello 1!\n');
+});
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
